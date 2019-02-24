@@ -6,17 +6,17 @@ const Pagination = ({ pages, page, start, next, back }) => (
   <div className="pagination" style={{ textAlign: 'center' }}>
     {
       page > 1 && page !== 2 && (
-        <div className="btn"><Link to={back} >Back </Link></div>
+        <div className="btn"><Link to={back} > Назад </Link></div>
       )
     }
     {
       page === 2 && (
-        <div className="btn"><Link to={start}> Back </Link></div>
+        <div className="btn"><Link to={start}> Назад </Link></div>
       )
     }
     {
       pages !== page && (
-        <div className="btn"><Link to={next}> Next </Link></div>
+        <div className="btn"><Link to={next}> Далі </Link></div>
       )
     }
   </div>
