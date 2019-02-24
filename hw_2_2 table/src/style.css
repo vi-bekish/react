@@ -1,0 +1,32 @@
+
+.wrap {
+  margin: 30px auto;
+  text-align: center;
+}
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+.thead {
+  font-weight: bold;
+  background: aliceblue;
+}
+.thead td {
+  text-align: center;
+}
+td {
+  padding: 10px 13px;
+  border: 1px solid #ccc;
+  min-width: 90px;
+  text-align: center;
+}
+
+.italic {
+  font-style: italic; 
+}
+.alignRight {
+  text-align: right;
+}
+.alignLeft {
+  text-align: left;
+}

@@ -1,0 +1,75 @@
+body{
+  display: flex;
+  justify-content: flex-start;
+  background: #eee;
+  font-family: Helvetica;
+}
+
+.wrap{
+  width: 680px;
+  min-height: 10px;
+  background: #fff;
+  box-sizing: border-box;
+  padding: 30px;
+}
+
+.wrap input[type='text'] {
+  background: #ededed;
+  width: 100%;
+  border: none;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.user_item{
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px;
+  transition: 0.1s;
+}
+.user_item:hover {
+  background: #f6f6f6;
+}
+
+h2 {
+  font-family: Impact, sans-serif;
+  position: relative;
+  display: inline-block;
+}
+h2 span {
+  color: #fff;
+  font-size: 13px;
+  position: absolute;
+  right: -5px;
+  top: -10px;
+  z-index: -1;
+}
+.user_item.arrived{
+  opacity: 0.5;
+}
+
+.user_item label span{
+  display: inline-block;
+  padding: 5px 10px;
+  background: #94c11e;
+  border-radius: 2px;
+}
+
+input[type="checkbox"] {
+  position: absolute;
+  visibility: hidden;
+}
+
+.search-icon {
+  width: 50px;
+  height: 50px;
+  background: #ffde00 url(https://image.flaticon.com/icons/png/128/149/149852.png) no-repeat center;
+  background-size: 20px;
+}
+
+.heading {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
